@@ -1,0 +1,65 @@
+body {
+    background-image: url('img/back.jpg');
+    background-repeat: no-repeat;
+    background-size: 1294px 636px;
+}
+fieldset {
+    color:white;
+    background-color: #fbfbfb00;
+    position: relative;
+    position: absolute;
+    margin-left: 340px;
+    width: 500px;
+    padding: 50px;
+}
+fieldset h1{
+    color : #ffffff;
+    margin-top: 10px;
+    text-align: center;
+}
+fieldset div{
+    
+}
+fieldset table{
+    margin-left: 55px;
+}
+fieldset p{
+    margin-left: 58px;
+    color:#ed0000;
+    text-decoration: none;
+}
+.navbar{
+    display:flex;
+}
+.logo{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 420px;
+}
+.logo img{
+    width:95px;
+    border: 3px solid black;
+    border-radius: 50px;
+}
+.list {
+
+    margin-top: 0;
+    display: flex;
+    align-items: center;
+}
+.list a{
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+    text-decoration: none;
+    animation: kuc;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;    
+}
+@keyframes kuc{
+    from {color: rgb(253, 81, 29);}
+    to {color :rgb(134, 236, 18);}
+}
